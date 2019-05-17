@@ -199,10 +199,10 @@ nav a {
   border-bottom: 3px dashed #ccc;
 }
 .home .content-section {
-  margin: 30px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 30px 0;
 }
 .home .content-section .text-content {
   width: 48%;
@@ -257,4 +257,17 @@ nav a {
 }
 .home .btn:hover {
   background-color: #00e6e6;
+}
+@media (max-width: 500px) {
+  .home header {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .home header h1 {
+    font-size: 3rem;
+  }
+  .home header nav {
+    width: 100%;
+    justify-content: space-evenly;
+  }
 }

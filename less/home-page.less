@@ -9,10 +9,10 @@
   }
 
   .content-section {
-    margin: 30px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 30px 0;
 
     .text-content {
       width: 48%;
@@ -67,5 +67,21 @@
 
   .btn {
     .button(200px, teal, 1.35rem, 2rem, @white, 12px, center);
+  }
+
+  @media @mobile {
+    header {
+      flex-direction: column;
+      justify-content: space-evenly;
+
+      h1 {
+        font-size: 3rem;
+      }
+
+      nav {
+        width: 100%;
+        justify-content: space-evenly;
+      }
+    }
   }
 } // home
