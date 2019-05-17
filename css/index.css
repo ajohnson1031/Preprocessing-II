@@ -302,6 +302,16 @@ nav a {
     display: flex;
     flex-wrap: wrap;
   }
+  .home .content-pick {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home .content-pick .destination {
+    width: 75%;
+  }
+  .home .content-pick .destination .btn {
+    max-width: 100%;
+  }
   .home img {
     width: 100%;
     height: auto;
