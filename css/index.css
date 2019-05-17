@@ -196,7 +196,7 @@ nav a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 3px dashed #ccc;
+  border-bottom: 2px dashed #c0c0c0;
 }
 .home .content-section {
   display: flex;
@@ -214,6 +214,18 @@ nav a {
 }
 .home .content-section .img-content img {
   border-radius: 10px;
+}
+.home .first {
+  margin-top: 0;
+}
+.home .first .hero-image {
+  width: 100%;
+  height: 50%;
+}
+.home .fs-text-content {
+  padding: 25px 0 20px;
+  border-bottom: 2px dashed #c0c0c0;
+  margin-bottom: 30px;
 }
 .home .inverse-content {
   padding-bottom: 30px;
@@ -269,5 +281,29 @@ nav a {
   .home header nav {
     width: 100%;
     justify-content: space-evenly;
+  }
+  .home .content-section {
+    margin: 0 25px;
+  }
+  .home .content-section .text-content,
+  .home .content-section .img-content {
+    width: 100%;
+    padding: 0 0 10px;
+  }
+  .home .inverse-content {
+    flex-direction: column-reverse;
+    padding: 25px 0;
+  }
+  .home .content-destination {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .home img {
+    width: 100%;
+    height: auto;
   }
 }
