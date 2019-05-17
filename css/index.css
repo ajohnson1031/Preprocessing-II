@@ -182,7 +182,7 @@ nav a {
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
-  background: #FFEBCD;
+  background: #ffebcd;
 }
 .footer p {
   text-align: center;
@@ -217,7 +217,7 @@ nav a {
 }
 .home .inverse-content {
   padding-bottom: 30px;
-  border-bottom: 2px dashed #C0C0C0;
+  border-bottom: 2px dashed #c0c0c0;
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -236,11 +236,25 @@ nav a {
 }
 .home .content-pick {
   padding-top: 30px;
-  border-top: 2px dashed #C0C0C0;
+  border-top: 2px dashed #c0c0c0;
   display: flex;
   justify-content: space-between;
 }
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .btn {
+  max-width: 200px;
+  background-color: teal;
+  padding: 1.35rem;
+  font-size: 2rem;
+  color: #ffffff;
+  border-radius: 12px;
+  text-align: center;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+.home .btn:hover {
+  background-color: #00e6e6;
 }
