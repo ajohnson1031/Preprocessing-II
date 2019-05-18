@@ -1,1 +1,17 @@
 // Mixins in here
+
+.button(@width, @bg-color, @padding, @fontsize, @color, @border, @align) {
+  max-width: @width;
+  background-color: @bg-color;
+  padding: @padding;
+  font-size: @fontsize;
+  color: @color;
+  border-radius: @border;
+  text-align: @align;
+  transition-duration: 0.2s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: lighten(@bg-color, 20%);
+  }
+}
